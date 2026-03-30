@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kishan App — Investor Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8E4bWQf9C47n5xk4N0nY2bQ7fN6x6wA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+      --bg: #07130d;
+      --bg-soft: #0d1f15;
+      --card: #11251a;
+      --green: #26d07c;
+      --green-soft: #84f0be;
+      --text: #f4fff9;
+      --muted: #b9d4c6;
+      --line: rgba(255, 255, 255, 0.12);
+      --shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background: radial-gradient(circle at top left, #0f2a1c 0%, #07130d 45%, #030906 100%);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 30px;
+    }
+
+    .deck {
+      max-width: 1220px;
+      margin: 0 auto;
+      display: grid;
+      gap: 28px;
+    }
+
+    .slide {
+      min-height: 680px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(145deg, rgba(17,37,26,0.96), rgba(7,19,13,0.98));
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      position: relative;
+      padding: 52px;
+      display: grid;
+      gap: 26px;
+      align-content: start;
+    }
+
+    .slide::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(to bottom right, rgba(255,255,255,0.06), transparent 42%);
+    }
+
+    .tag {
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green-soft);
+      font-weight: 700;
+    }
+
+    h1, h2 {
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      max-width: 90%;
+    }
+
+    h1 { font-size: clamp(42px, 6vw, 72px); }
+    h2 { font-size: clamp(30px, 4vw, 48px); }
+
+    p, li {
+      color: var(--muted);
+      font-size: clamp(18px, 2vw, 22px);
+      max-width: 90%;
+    }
+
+    .hero {
+      align-content: end;
+      background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0,0,0,0.78)),
+        url("https://images.unsplash.com/photo-1592982537447-6f2a6a0ecf6f?auto=format&fit=crop&w=1800&q=80") center/cover;
+    }
+
+    .hero h1,
+    .hero p {
+      max-width: 700px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .card strong {
+      color: var(--text);
+      font-size: 23px;
+    }
+
+    ul {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      margin-top: 6px;
+    }
+
+    li::before {
+      content: "• ";
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .icon-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .icon-pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 16px;
+      color: var(--text);
+      background: rgba(255,255,255,0.03);
+      font-size: 17px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .mockups {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .phone {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 14px;
+      background: #0a1a12;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+    }
+
+    .screen {
+      border-radius: 16px;
+      min-height: 380px;
+      background: linear-gradient(to bottom, #effff6, #e4fce4);
+      color: #0f291a;
+      padding: 14px;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+      font-size: 13px;
+    }
+
+    .screen h3 {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .mini {
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 8px;
+      font-size: 12px;
+      color: #244d36;
+    }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .phase {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .phase h4 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: var(--green-soft);
+    }
+
+    .full-center {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0.72)),
+        url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1800&q=80") center/cover;
+    }
+
+    .full-center p {
+      color: #ddfbe8;
+      font-weight: 600;
+      font-size: clamp(24px, 3.5vw, 42px);
+      max-width: 800px;
+    }
+
+    .image-accent {
+      background:
+        linear-gradient(0deg, rgba(6,16,11,0.86), rgba(6,16,11,0.78)),
+        url("https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1800&q=80") center/cover;
+    }
+
+    @media (max-width: 1000px) {
+      .grid-2,
+      .mockups,
+      .roadmap { grid-template-columns: 1fr 1fr; }
+      .slide { padding: 34px; }
+    }
+
+    @media (max-width: 700px) {
+      body { padding: 10px; }
+      .grid-2,
+      .mockups,
+      .roadmap { grid-template-columns: 1fr; }
+      .slide { min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide hero">
+      <span class="tag">Cover</span>
+      <h1>Kishan App</h1>
+      <p>Empowering Farmers, Increasing Profits</p>
+      <div class="icon-row">
+        <span class="icon-pill"><i class="fa-solid fa-indian-rupee-sign"></i> Better Prices</span>
+        <span class="icon-pill"><i class="fa-solid fa-tractor"></i> Farm-to-Market</span>
+        <span class="icon-pill"><i class="fa-solid fa-mobile-screen-button"></i> Digital First</span>
+      </div>
+    </section>
+
+    <section class="slide image-accent">
+      <span class="tag">Introduction</span>
+      <h2>Founder Story</h2>
+      <div class="grid-2">
+        <div class="card">
+          <strong>Rajendra</strong>
+          <p>Startup Founder</p>
+        </div>
+        <div class="card">
+          <strong>Mission</strong>
+          <p>Building a platform that connects farmers directly with buyers across Odisha and beyond.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Problem</span>
+      <h2>Why Farmers Need a Better Market</h2>
+      <ul>
+        <li>Farmers earn low income from current selling channels.</li>
+        <li>Middlemen capture a large share of profits.</li>
+        <li>No simple access to verified direct buyers.</li>
+        <li>Limited digital tools in local agriculture trade.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Solution</span>
+      <h2>Kishan App Marketplace Engine</h2>
+      <div class="grid-2">
+        <div class="card"><strong>Direct Marketplace</strong><p>Farmer-to-buyer connection without middlemen.</p></div>
+        <div class="card"><strong>Live Crop Prices</strong><p>Real-time pricing visibility for better decisions.</p></div>
+        <div class="card"><strong>Mobile Simplicity</strong><p>Lightweight UI for local language and low-data usage.</p></div>
+        <div class="card"><strong>Future Logistics</strong><p>Integrated transport and fulfillment layer.</p></div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Product Mockups</span>
+      <h2>Mobile Experience</h2>
+      <div class="mockups">
+        <article class="phone">
+          <div class="screen">
+            <h3>Home</h3>
+            <div class="mini">Today Market: Paddy ₹2,180/qtl</div>
+            <div class="mini">Maize ₹1,970 • Tomato ₹1,540</div>
+            <div class="mini">Buttons: Sell Crop • View Buyers • Price Alerts</div>
+          </div>
+        </article>
+        <article class="phone">
+          <div class="screen">
+            <h3>Marketplace</h3>
+            <div class="mini">Paddy - 200kg - Cuttack</div>
+            <div class="mini">Groundnut - 120kg - Balasore</div>
+            <div class="mini">Green Chilli - 80kg - Bhubaneswar</div>
+          </div>
+        </article>
+        <article class="phone">
+          <div class="screen">
+            <h3>Sell Product</h3>
+            <div class="mini">Crop Name</div>
+            <div class="mini">Quantity (kg)</div>
+            <div class="mini">Expected Price (₹)</div>
+            <div class="mini">Location + Post Listing</div>
+          </div>
+        </article>
+        <article class="phone">
+          <div class="screen">
+            <h3>Dashboard</h3>
+            <div class="mini">This Month Earnings: ₹42,800</div>
+            <div class="mini">Completed Orders: 16</div>
+            <div class="mini">Pending Payments: ₹8,200</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Features</span>
+      <h2>Core Value Features</h2>
+      <div class="icon-row">
+        <span class="icon-pill"><i class="fa-solid fa-plus"></i> Add Product</span>
+        <span class="icon-pill"><i class="fa-solid fa-chart-line"></i> View Market Prices</span>
+        <span class="icon-pill"><i class="fa-solid fa-handshake"></i> Connect with Buyers</span>
+        <span class="icon-pill"><i class="fa-solid fa-wallet"></i> Track Earnings</span>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Business Model</span>
+      <h2>Revenue Streams</h2>
+      <div class="grid-2">
+        <div class="card"><strong>Commission</strong><p>2%–5% on successful sales.</p></div>
+        <div class="card"><strong>Subscriptions</strong><p>Premium plans for advanced analytics and priority listing.</p></div>
+        <div class="card"><strong>Logistics Fees</strong><p>Delivery and handling charges as logistics layer launches.</p></div>
+      </div>
+    </section>
+
+    <section class="slide image-accent">
+      <span class="tag">Market Opportunity</span>
+      <h2>Massive, Expanding Market</h2>
+      <ul>
+        <li>India has one of the world’s largest agriculture ecosystems.</li>
+        <li>Millions of farmers are underserved in digital commerce.</li>
+        <li>Smartphone penetration is accelerating in rural markets.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Competitive Advantage</span>
+      <h2>Why Kishan App Wins</h2>
+      <ul>
+        <li>Simple UI designed for real farmer usage.</li>
+        <li>Strong local strategy focused on Odisha first.</li>
+        <li>Low commission model with transparent pricing.</li>
+        <li>Direct selling model removes middleman dependency.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <span class="tag">User Flow</span>
+      <h2>Transaction Journey</h2>
+      <div class="grid-2">
+        <div class="card">
+          <strong>Farmer Flow</strong>
+          <p>Add Product → Get Buyer → Sell → Earn</p>
+        </div>
+        <div class="card">
+          <strong>Buyer Flow</strong>
+          <p>View Product → Contact → Buy</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Growth Plan</span>
+      <h2>Execution Roadmap</h2>
+      <div class="roadmap">
+        <div class="phase"><h4>Phase 1</h4><p>Prototype & testing</p></div>
+        <div class="phase"><h4>Phase 2</h4><p>MVP launch</p></div>
+        <div class="phase"><h4>Phase 3</h4><p>Add logistics</p></div>
+        <div class="phase"><h4>Phase 4</h4><p>Expand across India</p></div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Team</span>
+      <h2>Founding Team</h2>
+      <div class="grid-2">
+        <div class="card"><strong>Rajendra</strong><p>Founder</p></div>
+        <div class="card"><strong>chotta don</strong><p>Designer</p></div>
+        <div class="card"><strong>Seshen</strong><p>Operations</p></div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Funding</span>
+      <h2>Capital Requirement</h2>
+      <div class="grid-2">
+        <div class="card"><strong>Required</strong><p>₹10–50 lakh</p></div>
+        <div class="card"><strong>Utilization</strong><p>Product development, marketing, and logistics setup.</p></div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <span class="tag">Vision</span>
+      <h2>Long-Term Impact</h2>
+      <ul>
+        <li>Build India’s largest farmer network.</li>
+        <li>Increase farmer income by 2x–5x over time.</li>
+      </ul>
+    </section>
+
+    <section class="slide full-center">
+      <p>Transforming Farming into a Profitable Business</p>
+    </section>
+  </main>
+</body>
+</html>
