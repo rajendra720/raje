@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COPA Assignment</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">COPA Learning Platform</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="courses.html">Course</a><a href="lesson.html">Lesson</a><a href="quiz.html">Quiz</a><a class="active" href="assignment.html">Assignment</a><a href="dashboard.html">Dashboard</a><a href="login.html">Login/Register</a>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Assignment Section</h1>
+    <select id="assignmentTopic"></select>
+    <div id="assignmentPrompt" class="card"></div>
+    <label for="submissionText">Your submission (paste notes / work summary)</label>
+    <textarea id="submissionText" rows="6" placeholder="Write what you completed..."></textarea>
+    <button id="submitAssignment" class="btn">Submit Assignment</button>
+    <p id="submissionMsg"></p>
+  </main>
+  <script src="js/assignment.js"></script>
+</body>
+</html>

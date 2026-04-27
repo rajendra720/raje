@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COPA Quiz</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">COPA Learning Platform</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="courses.html">Course</a><a href="lesson.html">Lesson</a><a class="active" href="quiz.html">Quiz</a><a href="assignment.html">Assignment</a><a href="dashboard.html">Dashboard</a><a href="login.html">Login/Register</a>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Interactive Topic Quiz</h1>
+    <select id="quizTopic"></select>
+    <form id="quizForm" class="card"></form>
+    <button id="submitQuiz" class="btn">Submit Quiz</button>
+    <div id="quizResult" class="result"></div>
+  </main>
+  <script src="js/quiz.js"></script>
+</body>
+</html>

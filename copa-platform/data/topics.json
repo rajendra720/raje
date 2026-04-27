@@ -1,0 +1,1258 @@
+{
+  "topics": [
+    {
+      "id": "safety",
+      "name": "Types of Safety",
+      "dayRange": "Day 1",
+      "explanation": "Safety ka matlab hai khud ko, dusron ko aur equipment ko safe rakhna. Workshop ya computer lab me rules follow karna very important hai.",
+      "keyPoints": [
+        "Personal safety: gloves, posture, eye care",
+        "Electrical safety: switch off before handling",
+        "Fire safety: extinguisher type samjho",
+        "Cyber safety: strong password and no unknown links"
+      ],
+      "example": "Computer lab me wet hands se switch touch karna dangerous hota hai; pehle dry karo, then use.",
+      "mcqs": [
+        {
+          "q": "Safety goggles kab use karte hain?",
+          "options": [
+            "Cutting/drilling work me",
+            "Typing karte time",
+            "Email bhejte time",
+            "Printer on karte time"
+          ],
+          "answer": "Cutting/drilling work me"
+        },
+        {
+          "q": "Electrical shock avoid karne ka best rule?",
+          "options": [
+            "Wet hands se plug touch karo",
+            "Switch off then handle",
+            "Wire pull by cable",
+            "Damaged socket use karo"
+          ],
+          "answer": "Switch off then handle"
+        },
+        {
+          "q": "Fire class C kis se related hai?",
+          "options": [
+            "Electrical fire",
+            "Paper fire",
+            "Wood fire",
+            "Food oil fire"
+          ],
+          "answer": "Electrical fire"
+        },
+        {
+          "q": "Strong password ka example?",
+          "options": [
+            "123456",
+            "password",
+            "A1@z9Q!m",
+            "qwerty"
+          ],
+          "answer": "A1@z9Q!m"
+        },
+        {
+          "q": "Lab me first response for accident?",
+          "options": [
+            "Ignore",
+            "Inform instructor immediately",
+            "Run away",
+            "Post on social media"
+          ],
+          "answer": "Inform instructor immediately"
+        }
+      ],
+      "assignment": "Lab safety checklist banao and 10 safety rules chart print karo."
+    },
+    {
+      "id": "fundamentals",
+      "name": "Computer Fundamentals",
+      "dayRange": "Day 2",
+      "explanation": "Computer ek electronic machine hai jo input leta hai, process karta hai aur output deta hai. Hardware + software milke system banate hain.",
+      "keyPoints": [
+        "Data vs Information",
+        "Hardware, software, firmware",
+        "CPU, memory, storage basics",
+        "Generations and types of computers"
+      ],
+      "example": "School result processing me raw marks (data) ko report card (information) me convert kiya jata hai.",
+      "mcqs": [
+        {
+          "q": "Computer Fundamentals ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Computer Fundamentals me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Computer Fundamentals practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Computer Fundamentals ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Computer Fundamentals me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Apne ghar/center ke 5 digital devices identify karke unka use likho."
+    },
+    {
+      "id": "io-devices",
+      "name": "Input/Output Devices",
+      "dayRange": "Day 3",
+      "explanation": "Input devices user se data lete hain, output devices result dikhate hain. Kuch devices dono kaam karte hain.",
+      "keyPoints": [
+        "Input: keyboard, mouse, scanner, mic",
+        "Output: monitor, printer, speaker",
+        "Storage device as I/O support",
+        "Ports and connectivity basics"
+      ],
+      "example": "ATM machine me keypad input hai aur screen + receipt printer output.",
+      "mcqs": [
+        {
+          "q": "Input/Output Devices ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Input/Output Devices me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Input/Output Devices practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Input/Output Devices ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Input/Output Devices me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Ek table banao: 10 devices with category input/output/both."
+    },
+    {
+      "id": "os",
+      "name": "Operating System",
+      "dayRange": "Day 4-5",
+      "explanation": "OS computer ka manager hai jo hardware aur software ke beech interface deta hai. Without OS, computer usable nahi hota.",
+      "keyPoints": [
+        "Functions: process, memory, file management",
+        "Types: batch, multitasking, mobile OS",
+        "Windows/Linux basic features",
+        "Command vs GUI"
+      ],
+      "example": "Phone me Android apps ko run aur manage karta hai; यही OS ka role hai.",
+      "mcqs": [
+        {
+          "q": "Operating System ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Operating System me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Operating System practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Operating System ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Operating System me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Windows me 5 folders create karo, rename karo, copy/move/delete practice karo."
+    },
+    {
+      "id": "internet-networking",
+      "name": "Internet & Networking",
+      "dayRange": "Day 6-7",
+      "explanation": "Internet global network hai aur networking ka matlab devices ko connect karke resource share karna.",
+      "keyPoints": [
+        "LAN, MAN, WAN",
+        "IP address and domain basics",
+        "Browser, URL, search techniques",
+        "Safe browsing and phishing awareness"
+      ],
+      "example": "Computer lab ke sab PCs LAN switch se connected hote hain to printer share hota hai.",
+      "mcqs": [
+        {
+          "q": "Internet & Networking ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Internet & Networking me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Internet & Networking practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Internet & Networking ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Internet & Networking me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "LAN network diagram draw karo aur ISP connection flow explain karo."
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail Introduction",
+      "dayRange": "Day 8",
+      "explanation": "Gmail se email bhejna, receive karna, attachments share karna aur labels organize karna seekhte hain.",
+      "keyPoints": [
+        "Compose, CC, BCC",
+        "Attachments and Drive links",
+        "Inbox filters and labels",
+        "Email etiquette"
+      ],
+      "example": "Job application me resume PDF attach karke professional subject line use karna.",
+      "mcqs": [
+        {
+          "q": "Gmail Introduction ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Gmail Introduction me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Gmail Introduction practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Gmail Introduction ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Gmail Introduction me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Khud ko 3 emails bhejo: plain, with attachment, with CC/BCC."
+    },
+    {
+      "id": "ms-word",
+      "name": "MS Word",
+      "dayRange": "Day 9-10",
+      "explanation": "MS Word document banane, format karne aur print-ready file create karne ke liye use hota hai.",
+      "keyPoints": [
+        "Font, paragraph, alignment",
+        "Insert table, image, header/footer",
+        "Page setup and margins",
+        "Save as PDF"
+      ],
+      "example": "School notice ya application letter Word me ready hota hai.",
+      "mcqs": [
+        {
+          "q": "MS Word ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "MS Word me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "MS Word practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "MS Word ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "MS Word me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "1-page biodata + 1 official letter Word me banao aur PDF export karo."
+    },
+    {
+      "id": "ms-excel",
+      "name": "MS Excel",
+      "dayRange": "Day 11-12",
+      "explanation": "Excel spreadsheet tool hai jisme rows-columns me data store, calculate, aur analyze kiya jata hai.",
+      "keyPoints": [
+        "Cell, row, column, range",
+        "Formulas: SUM, AVERAGE, MAX, MIN",
+        "Sorting and filtering",
+        "Basic chart creation"
+      ],
+      "example": "Shop owner daily sales Excel sheet me daal kar total nikalta hai.",
+      "mcqs": [
+        {
+          "q": "MS Excel ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "MS Excel me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "MS Excel practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "MS Excel ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "MS Excel me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "20 students marks sheet banao and percentage + grade formula lagao."
+    },
+    {
+      "id": "ms-powerpoint",
+      "name": "MS PowerPoint",
+      "dayRange": "Day 13",
+      "explanation": "PowerPoint se presentation slides banakar idea visually explain kiya jata hai.",
+      "keyPoints": [
+        "Slide layouts and themes",
+        "Text, images, smart art",
+        "Transitions vs animations",
+        "Presentation mode"
+      ],
+      "example": "Project viva me 6-slide PPT se concept explain kiya jata hai.",
+      "mcqs": [
+        {
+          "q": "MS PowerPoint ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "MS PowerPoint me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "MS PowerPoint practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "MS PowerPoint ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "MS PowerPoint me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Apni 'My COPA Journey' par 6-slide presentation banao."
+    },
+    {
+      "id": "google-forms",
+      "name": "Google Forms",
+      "dayRange": "Day 14",
+      "explanation": "Google Forms online survey/test banane ka easy tool hai jisse auto responses collect hote hain.",
+      "keyPoints": [
+        "Form creation and question types",
+        "Required fields and validation",
+        "Quiz mode and answer key",
+        "Response sheet in Google Sheets"
+      ],
+      "example": "Class feedback form bana kar instantly responses collect karna.",
+      "mcqs": [
+        {
+          "q": "Google Forms ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Google Forms me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Google Forms practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Google Forms ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Google Forms me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "5-question feedback form banao and 2 responses collect karo."
+    },
+    {
+      "id": "spreadsheet-concepts",
+      "name": "Spreadsheet Concepts",
+      "dayRange": "Day 15",
+      "explanation": "Spreadsheet concepts Excel/Sheets dono me same रहते हैं: data organization, formulas, references.",
+      "keyPoints": [
+        "Relative vs absolute reference",
+        "Data validation",
+        "Conditional formatting",
+        "Pivot table intro"
+      ],
+      "example": "Inventory sheet me low stock items highlight karne ke liye conditional formatting.",
+      "mcqs": [
+        {
+          "q": "Spreadsheet Concepts ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Spreadsheet Concepts me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Spreadsheet Concepts practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Spreadsheet Concepts ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Spreadsheet Concepts me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Budget sheet banao with monthly expenses and highlight >₹3000 entries."
+    },
+    {
+      "id": "c-language",
+      "name": "C Language",
+      "dayRange": "Day 16-17",
+      "explanation": "C ek foundational programming language hai jo logic building aur structured programming sikhati hai.",
+      "keyPoints": [
+        "Syntax, variables, data types",
+        "if-else, loops, switch",
+        "Functions and arrays",
+        "Compilation process"
+      ],
+      "example": "Even/odd checker program se condition logic samajh aata hai.",
+      "mcqs": [
+        {
+          "q": "C Language ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "C Language me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "C Language practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "C Language ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "C Language me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Calculator style C program banao for + - * / using switch."
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "dayRange": "Day 18-19",
+      "explanation": "Python easy aur readable language hai jo automation, data, web sab me use hoti hai.",
+      "keyPoints": [
+        "Print, input, variables",
+        "Lists, tuples, dictionaries",
+        "Loops and functions",
+        "File handling basics"
+      ],
+      "example": "Attendance automation script naam list se present count karta hai.",
+      "mcqs": [
+        {
+          "q": "Python ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Python me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Python practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Python ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Python me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Student result analyzer Python me banao (total, average, pass/fail)."
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "dayRange": "Day 20",
+      "explanation": "Java object-oriented language hai jo apps aur enterprise systems me popular hai.",
+      "keyPoints": [
+        "JVM, JRE, JDK basics",
+        "Class and object",
+        "Methods and constructors",
+        "Inheritance intro"
+      ],
+      "example": "Bank app me account object create karke balance methods use hote hain.",
+      "mcqs": [
+        {
+          "q": "Java ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "Java me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "Java practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "Java ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "Java me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Java class banao: Student with fields and displayDetails() method."
+    },
+    {
+      "id": "dbms",
+      "name": "DBMS",
+      "dayRange": "Day 21-22",
+      "explanation": "DBMS data ko structured form me store, update aur retrieve karne ka system hai.",
+      "keyPoints": [
+        "Database, table, record, field",
+        "Primary key and relationships",
+        "Normalization basics",
+        "DBMS vs file system"
+      ],
+      "example": "Hospital patient records DBMS me organized रहते हैं instead of random files.",
+      "mcqs": [
+        {
+          "q": "DBMS ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "DBMS me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "DBMS practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "DBMS ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "DBMS me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Library database schema design karo (books, members, issue table)."
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "dayRange": "Day 23-24",
+      "explanation": "SQL se database me query likhkar data insert, update, delete aur fetch karte hain.",
+      "keyPoints": [
+        "CREATE, INSERT, SELECT",
+        "WHERE, ORDER BY, GROUP BY",
+        "UPDATE and DELETE",
+        "Joins basic"
+      ],
+      "example": "E-commerce me order table se city-wise sales निकालना SQL query से possible hai.",
+      "mcqs": [
+        {
+          "q": "SQL ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "SQL me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "SQL practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "SQL ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "SQL me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Student table create karo and 10 records ke saath 5 queries run karo."
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "dayRange": "Day 25",
+      "explanation": "HTML web page ka structure banata hai using tags.",
+      "keyPoints": [
+        "Heading, paragraph, list, link",
+        "Forms and inputs",
+        "Semantic tags",
+        "Basic page layout"
+      ],
+      "example": "Any website ka skeleton HTML se hi banta hai.",
+      "mcqs": [
+        {
+          "q": "HTML ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "HTML me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "HTML practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "HTML ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "HTML me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Personal profile page banao with image, list, contact form."
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "dayRange": "Day 26-27",
+      "explanation": "CSS webpage ko style karta hai: colors, spacing, layout aur responsive design.",
+      "keyPoints": [
+        "Selectors and properties",
+        "Box model",
+        "Flexbox and grid basics",
+        "Media queries"
+      ],
+      "example": "Mobile pe button size adjust karna media query से hota hai.",
+      "mcqs": [
+        {
+          "q": "CSS ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "CSS me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "CSS practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "CSS ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "CSS me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "HTML profile page ko responsive card layout me style karo."
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "dayRange": "Day 28-30",
+      "explanation": "JavaScript se webpage interactive banta hai—events, validation, dynamic content, local storage.",
+      "keyPoints": [
+        "Variables, functions, conditions",
+        "DOM selection and events",
+        "Arrays/objects",
+        "LocalStorage basics"
+      ],
+      "example": "Quiz app me submit click par score calculate करना JavaScript ka काम hai.",
+      "mcqs": [
+        {
+          "q": "JavaScript ka primary use kya hai?",
+          "options": [
+            "Data handling/learning task",
+            "Cooking",
+            "Driving",
+            "Painting"
+          ],
+          "answer": "Data handling/learning task"
+        },
+        {
+          "q": "JavaScript me beginner ko sabse pehle kya seekhna chahiye?",
+          "options": [
+            "Basic concepts",
+            "Advanced hacking",
+            "Server tuning",
+            "Kernel coding"
+          ],
+          "answer": "Basic concepts"
+        },
+        {
+          "q": "JavaScript practice ka best तरीका?",
+          "options": [
+            "Daily small tasks",
+            "Only exam day",
+            "No practice",
+            "Random guessing"
+          ],
+          "answer": "Daily small tasks"
+        },
+        {
+          "q": "JavaScript ka real benefit kya hai?",
+          "options": [
+            "Productivity improve",
+            "Battery drain only",
+            "No use",
+            "Confusion"
+          ],
+          "answer": "Productivity improve"
+        },
+        {
+          "q": "JavaScript me mistakes ka solution?",
+          "options": [
+            "Read error and debug",
+            "System बंद",
+            "Blame hardware",
+            "Skip topic"
+          ],
+          "answer": "Read error and debug"
+        }
+      ],
+      "assignment": "Simple to-do app banao with add/delete and local storage."
+    }
+  ]
+}

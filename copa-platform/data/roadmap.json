@@ -1,0 +1,184 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "title": "Types of Safety",
+      "topicId": "safety",
+      "goal": "Lab safety rules + checklist"
+    },
+    {
+      "day": 2,
+      "title": "Computer Fundamentals",
+      "topicId": "fundamentals",
+      "goal": "Computer basics and components"
+    },
+    {
+      "day": 3,
+      "title": "Input/Output Devices",
+      "topicId": "io-devices",
+      "goal": "Identify devices practically"
+    },
+    {
+      "day": 4,
+      "title": "Operating System - Basics",
+      "topicId": "os",
+      "goal": "OS concepts and interface"
+    },
+    {
+      "day": 5,
+      "title": "Operating System - Practice",
+      "topicId": "os",
+      "goal": "File/folder operations hands-on"
+    },
+    {
+      "day": 6,
+      "title": "Internet Basics",
+      "topicId": "internet-networking",
+      "goal": "Networking intro and terms"
+    },
+    {
+      "day": 7,
+      "title": "Networking Practice",
+      "topicId": "internet-networking",
+      "goal": "IP, browser safety activity"
+    },
+    {
+      "day": 8,
+      "title": "Gmail Introduction",
+      "topicId": "gmail",
+      "goal": "Email compose and attachment"
+    },
+    {
+      "day": 9,
+      "title": "MS Word Formatting",
+      "topicId": "ms-word",
+      "goal": "Document formatting basics"
+    },
+    {
+      "day": 10,
+      "title": "MS Word Practical",
+      "topicId": "ms-word",
+      "goal": "Letter + resume creation"
+    },
+    {
+      "day": 11,
+      "title": "MS Excel Basics",
+      "topicId": "ms-excel",
+      "goal": "Cells, formulas, tables"
+    },
+    {
+      "day": 12,
+      "title": "MS Excel Practical",
+      "topicId": "ms-excel",
+      "goal": "Marksheet and chart"
+    },
+    {
+      "day": 13,
+      "title": "MS PowerPoint",
+      "topicId": "ms-powerpoint",
+      "goal": "Create presentation"
+    },
+    {
+      "day": 14,
+      "title": "Google Forms",
+      "topicId": "google-forms",
+      "goal": "Online form + responses"
+    },
+    {
+      "day": 15,
+      "title": "Spreadsheet Concepts",
+      "topicId": "spreadsheet-concepts",
+      "goal": "References and conditional format"
+    },
+    {
+      "day": 16,
+      "title": "C Language Basics",
+      "topicId": "c-language",
+      "goal": "Syntax + variables + loops"
+    },
+    {
+      "day": 17,
+      "title": "C Language Practical",
+      "topicId": "c-language",
+      "goal": "Program writing practice"
+    },
+    {
+      "day": 18,
+      "title": "Python Basics",
+      "topicId": "python",
+      "goal": "Data types and conditions"
+    },
+    {
+      "day": 19,
+      "title": "Python Practical",
+      "topicId": "python",
+      "goal": "Lists/functions mini tasks"
+    },
+    {
+      "day": 20,
+      "title": "Java Basics",
+      "topicId": "java",
+      "goal": "Class-object concepts"
+    },
+    {
+      "day": 21,
+      "title": "DBMS Concepts",
+      "topicId": "dbms",
+      "goal": "Database design basics"
+    },
+    {
+      "day": 22,
+      "title": "DBMS Practice",
+      "topicId": "dbms",
+      "goal": "Schema and keys practice"
+    },
+    {
+      "day": 23,
+      "title": "SQL DDL/DML",
+      "topicId": "sql",
+      "goal": "Create and insert commands"
+    },
+    {
+      "day": 24,
+      "title": "SQL Queries",
+      "topicId": "sql",
+      "goal": "Select/filter/group/join"
+    },
+    {
+      "day": 25,
+      "title": "HTML Fundamentals",
+      "topicId": "html",
+      "goal": "Build basic page structure"
+    },
+    {
+      "day": 26,
+      "title": "CSS Fundamentals",
+      "topicId": "css",
+      "goal": "Selectors and box model"
+    },
+    {
+      "day": 27,
+      "title": "CSS Layout & Responsive",
+      "topicId": "css",
+      "goal": "Flex/grid and media queries"
+    },
+    {
+      "day": 28,
+      "title": "JavaScript Basics",
+      "topicId": "javascript",
+      "goal": "Variables/functions/DOM"
+    },
+    {
+      "day": 29,
+      "title": "JavaScript Interactive",
+      "topicId": "javascript",
+      "goal": "Quiz/todo interaction"
+    },
+    {
+      "day": 30,
+      "title": "Revision + Final Project",
+      "topicId": "javascript",
+      "goal": "Portfolio website final build"
+    }
+  ]
+}
