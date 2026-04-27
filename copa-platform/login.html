@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login / Register</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">COPA Learning Platform</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="courses.html">Course</a><a href="lesson.html">Lesson</a><a href="quiz.html">Quiz</a><a href="assignment.html">Assignment</a><a href="dashboard.html">Dashboard</a><a class="active" href="login.html">Login/Register</a>
+    </div>
+  </nav>
+  <main class="container grid">
+    <section class="card">
+      <h2>Register</h2>
+      <input id="regName" placeholder="Full Name" />
+      <input id="regEmail" type="email" placeholder="Email" />
+      <input id="regPass" type="password" placeholder="Password" />
+      <button id="registerBtn" class="btn">Create Account</button>
+      <p id="regMsg"></p>
+    </section>
+    <section class="card">
+      <h2>Login</h2>
+      <input id="logEmail" type="email" placeholder="Email" />
+      <input id="logPass" type="password" placeholder="Password" />
+      <button id="loginBtn" class="btn">Login</button>
+      <p id="logMsg"></p>
+    </section>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>

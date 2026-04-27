@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">COPA Learning Platform</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="courses.html">Course</a><a href="lesson.html">Lesson</a><a href="quiz.html">Quiz</a><a href="assignment.html">Assignment</a><a class="active" href="dashboard.html">Dashboard</a><a href="login.html">Login/Register</a>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Student Dashboard</h1>
+    <div class="grid">
+      <div class="card"><h3>Logged in user</h3><p id="dashUser">Guest</p></div>
+      <div class="card"><h3>Topics Completed</h3><p id="topicsCompleted">0</p></div>
+      <div class="card"><h3>Average Quiz Score</h3><p id="avgScore">0%</p></div>
+      <div class="card"><h3>Assignments Submitted</h3><p id="assignmentCount">0</p></div>
+    </div>
+
+    <h3 class="section-title">Overall Progress</h3>
+    <div class="progress-wrap"><div id="overallProgress" class="progress-bar"></div></div>
+    <p id="progressText" class="muted"></p>
+  </main>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
